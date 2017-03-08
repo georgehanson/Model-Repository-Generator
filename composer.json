@@ -1,0 +1,30 @@
+{
+    "name": "georgehanson/modelrepositorygenerator",
+    "description": "A laravel package which generates a model, repository and contract",
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "George Hanson",
+            "email": "george.w.hanson96@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.4",
+        "illuminate/console": "^5.4",
+        "illuminate/filesystem": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeorgeHanson\\ModelRepositoryGenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GeorgeHanson\\ModelRepositoryGenerator\\Tests": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}

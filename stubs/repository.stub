@@ -1,0 +1,10 @@
+<?php
+
+namespace DummyNamespace;
+
+use MainNamespace\ContractNamespace\Repositories\DummyContract as Contract;
+
+class DummyClass implements Contract
+{
+    protected $model = 'DummyModel';
+}

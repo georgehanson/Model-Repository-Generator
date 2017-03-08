@@ -1,0 +1,3 @@
+# Laravel Model Repository Generator
+
+Docs coming soon...
