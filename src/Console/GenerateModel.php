@@ -48,15 +48,11 @@ class GenerateModel extends GeneratorCommand implements GeneratorContract
 
         if ($this->option('repository')) {
             $repository = Str::studly(class_basename($this->argument('name')));
-            dd($model);
+
             $this->call('generate:repository', [
                 'name' => "$repository",
                 'model' => $model
             ]);
-
-//            $this->call('generate:contract', [
-//                'name' => "Repositories\\{$repository}",
-//            ]);
         }
 
         if ($this->option('migration')) {
