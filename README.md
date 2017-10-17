@@ -1,4 +1,6 @@
-#Model Repository Generator
+# Model Repository Generator
+
+***This package is archived***
 
 This is a package for Laravel 5 which allows you to easily generate repositories, contracts and models. It brings two
 new automatic file creation commands (Repositories and Contracts), as well as enhancing the current model creation
